@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html, body{
+    height:100%;
+    background-color: whitesmoke;
+}
+ @keyframes anim1{
+        from{background-color: rgb(255, 2, 2);}
+        to{background-color:rgb(252, 252, 252);}
+ }
+
+.header{
+    background-color: white;
+    text-align: center;    
+    padding: 50px;
+    animation-name: anim1;
+    animation-duration:2s;
+    width: 100%;
+    
+    
+}
+.topnav{
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    
+    
+    
+}
+
+.topnav a{
+    display: inline;
+    font-size: 17px;
+    padding: 14px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+   
+     
+
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+
+    }
+
+.container{
+    text-align: center;
+    height: 1048px;
+    
+    
+}
+.conteudo{
+    background-color: white;
+    margin:1% 0% 0% 0%;
+    width: 50%;
+    float:left;
+    margin-left: 15%;
+}
+.coluna{
+    background-color: white;
+    margin:1% 1% 0%;
+    width: 20%;
+    float:left;
+}
+
+
+
